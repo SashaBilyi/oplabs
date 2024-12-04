@@ -1,3 +1,8 @@
-let a = 18;
-const inc = (n) => ++n;
-console.dir(inc(a));
+function inc(n) {
+    return n + 1;
+}
+
+
+const a = 5;
+const b = inc(a);
+console.dir({ a, b }); 
